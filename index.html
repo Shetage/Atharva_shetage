@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        /* header {
+            background:lavenderblush;
+            color: red;
+            padding: 1rem 0;
+            text-align: center;
+        } */
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background: yellow;
+            padding-bottom: 20px;
+            border:3px solid blue;
+            
+            
+        }
+      
+        a:link{
+            color:darkgreen;
+        }
+        a:visited{
+            color:darkgreen;
+        }
+       nav a:hover{
+            background-color: rgb(202, 96, 88);
+            color:white;
+            border:1px solid black;
+        }
+        .container {
+            /* padding: 1rem 2rem; */
+            border:3px solid purple;
+        }
+        section {
+            margin-bottom: 2rem;
+            /*border:3px solid blue*/
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background:black;
+            color: lightskyblue;
+        }
+    
+        .c1{
+            background: url(./bg1.jpg);
+            background-repeat: repeat-x;
+            background-size: contain;
+            border:5px solid ;
+            text-align:center;
+            color: black;
+        }
+    table{
+        background-color: aliceblue;
+        color: black;
+        border-radius: 3px;
+        border-collapse: collapse;
+        border-color: blue;
+        text-align:justify
+
+    }
+    .skills{
+            border-collapse: collapse;
+            width: 100%;
+            border-radius: "3px";
+            border-color: blue;
+            border-collapse: collapse;
+            
+        }
+        #achieve
+        {
+            float: right;
+            width:100%
+        }
+        .forth::first-letter
+        {
+            font-size: xx-large;
+            font-weight: bold;
+            color: red;
+            background-color: lightblue;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-decoration-color: blueviolet;
+        }
+        h3::first-letter{
+            font-size: xx-large;
+            font-weight: bold;
+            color: darkviolet;
+        }
+        h2::first-letter{
+            font-size: xx-large;
+            font-weight: bold;
+            color: red;
+        }
+        /* .l1::{ 
+            font-size: xx-large;
+            font-weight: bold;
+            color: red;
+
+         } */
+        .k1::first-letter{
+            font-size: xx-large;
+            font-weight: bold;
+            color: red;
+        }
+
+        .about {
+            text-align: center;
+            padding-bottom: 20px;
+            background: url(./b3.jpg);
+        }
+
+        .about img {
+            
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body> 
+
+
+    <div class="c1">
+    <header>
+        <h3> <marquee>Atharva's DataDynamo</marquee> </h3>
+    </header>
+    </div>
+    <section id="about">
+        <div class="about">
+            <img  src="atharva.jpg" alt="Profile Photo">
+            <h2 >About Me</h2>
+            <h1 style="text-align: left;">Hello! I am a passionate developer who loves creating modern and efficient web applications. <br>
+                Always eager to learn and grow.</h1>
+        </div>
+    </section>
+
+
+    <nav>
+       <b> <a href="#about">About</b></a>
+        <b><a href="#projects">Achievements</b></a>
+        <b><a href="#skills">Skills</b></a>
+        <b><a href="#contact">Contact</b></a>
+    </nav>
+
+    <div class="container">
+        <section>
+            <h2>Introduction</h2>
+            <p>Hello! My name is Atharva Sandip Shetage.I am 18 years Old. I am a first year student pursuing Artificial Intelligence & Data Science engineering at Zeal College of Engineering,Pune bacheloring in Artificial Intelligence & Data Science in the Engineering Field.  I am passionate about coding and Web Application DevelopmentS.
+                 I specialize in software development. 
+                    My physical interests include, Badminton and Cricket</p>
+        </section></div>
+        
+
+        <section  class="forth" class="container">
+            <h2> Certifications and Awards</h2>
+               <table id="achieve" border="1">
+                            <tr>
+                    <h2><th>Badminton</th></h2>
+                    <td>
+                        <p style="float: left; color:blue">In 2019-20, I had the privilege of winning the silver medal in the inter-school badminton tournament, a milestone that stands out as one of my proudest achievements. Competing against talented players from various schools pushed me to hone my skills, demonstrate resilience, and stay focused under pressure. This experience not only highlighted my dedication to the sport but also strengthened my ability to perform in competitive environments.</p>
+                    </td>
+                </tr>
+                <tr>
+                   <h2><th>Drawing</th></h2>
+                    <td>
+                        <p style="float: left; color:blue">
+                            In 2020-21, I was honored to win the silver medal in the inter-school drawing tournament, an achievement that reflects my creativity and passion for art. The competition provided an incredible platform to showcase my artistic skills and challenged me to think innovatively. Competing with talented artists from various schools was both inspiring and rewarding, motivating me to push my boundaries. This accomplishment not only deepened my love for drawing but also taught me the value of perseverance <br>and self-expression
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section id="skills" class="skills">
+            <h2 class="skills" >My Skills</h2>
+            <table border="1" class="skills" >
+              <tr>
+                <th  style="width:80px">Languages</th>
+                <td><p style="float: left; color:blue">HTML, CSS, C, C++</p></td>
+              </tr>
+              <tr>
+                <th  style="width:80px">Operating System</th>
+                    <td><p style="float: left; color:blue">Windows O.S</p></td>
+              </tr>
+              </table>
+              </section>
+
+        <section id="contact" class="k1">
+            <h2>Contact Me</h2>
+            <p><b>Email: <a href="mailto:atharvashetage@gmail.com">atharvashetage@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/Atharva/" target="_blank">linkedin profile</a></p>
+            <p>GitHub:<a href="https://github.com/Shetage/Atharva_shetage">GitHub profile</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Atharva Sandip Shetage. All rights reserved.</p>
+    </footer>
+</body>
+</html>
